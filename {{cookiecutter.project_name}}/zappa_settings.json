@@ -1,0 +1,6 @@
+{
+  "prod": {
+    "django_settings": "{{ cookiecutter.project_package }}.settings",
+    "s3_bucket": "{{ cookiecutter.s3bucket }}"
+  }
+}

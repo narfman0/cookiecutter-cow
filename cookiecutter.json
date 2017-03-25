@@ -1,0 +1,14 @@
+{
+  "project_name": "project-name",
+  "project_package": "{{ cookiecutter.project_name|replace('-', '_') }}",
+  "project_description": "brief description",
+  "github_username": "username",
+  "s3bucket": "genericbucket",
+  "author_name": "name",
+  "author_email": "{{ cookiecutter.github_username }}@gmail.com",
+  "db_name": "{{ cookiecutter.project_name }}",
+  "db_user": "{{ cookiecutter.github_username }}",
+  "db_pass": "",
+  "db_host": "localhost",
+  "db_port": "5432"
+}
